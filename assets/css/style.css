@@ -78,7 +78,7 @@ span.label {
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url("{{site.baseurl}}/assets/images/background.png");
+  background-image: url("/assets/images/background.png");
   position: relative;
   color: white; }
   .header * {
