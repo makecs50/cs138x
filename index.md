@@ -5,7 +5,7 @@
 layout: default-primary
 ---
 <section class="info">
-  <h3 class="topic topic--main">Makecsx - Курсы Компьютерных Наук</h3>
+  <h3 class="topic topic--main">makecsx - Курсы Компьютерных Наук</h3>
   <h2 class='info-header'>CS138X: Summer 2019</h2>
   <p>Добро пожаловать на CS138X: Каскадные Таблицы Стилей!
     Этот курс охватывает все, что касается современной стилизации веб-страниц.
