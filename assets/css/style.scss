@@ -1,0 +1,382 @@
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('./fonts/inconsolata.ttf');
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('./fonts/inconsolatabold.ttf');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('./fonts/inconsolataitalic.ttf');
+    font-style: italic;
+}
+
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+    font-size: 62.5%;    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+}
+
+body {
+    line-height: 2.9rem;
+    font-size: 1.9rem;
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+}
+
+hr {
+    background-color: rgba(27,31,35,0.08);
+    border: 0;
+    box-sizing: border-box;
+    height: 3px;
+    margin: 2em auto;
+    width: 75%;
+}
+
+a {
+
+    &:not(.nav) {
+        color: #1228e2;
+        position: relative;
+        padding-bottom: 0.15em;
+        text-decoration: none;
+        transition: color 0.2s ease-in-out;
+        
+        &:hover {
+            color: #fe6993;
+
+            &:after {
+                opacity: 1;
+            }
+        }
+
+        &:after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            opacity: 0;
+            width: 100%;
+            border-bottom: 1px solid #fe6993;
+            transition: opacity 0.4s ease-in-out;
+        }
+    }
+}
+
+ul {
+    margin: 0;
+    list-style-type: circle;
+}
+
+span {
+
+    &.label {
+        background-color: rgba(254, 105, 147, 0.1);
+        border-radius: 3px;
+        color: #fe6993;
+        display: inline-block;
+        font-weight: bold;
+        padding: 0.3em 0;
+        line-height: 1em;
+        margin: 0;
+        font-size: 85%;
+
+        &:before,
+        &:after {
+            content: '\00a0';
+        }
+    }
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://web.stanford.edu/class/cs193x/images/background.png');
+    position: relative;
+    color: white;
+
+    * {
+        -webkit-font-smoothing: auto;
+        -moz-osx-font-smoothing: auto;
+    }
+
+    &::after {
+        content: '';
+        background-color: rgba(0, 0, 0, 0.75);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+
+    & > * {
+        z-index: 1;
+    }
+
+    &__bottom-nav {
+        align-self: flex-start;
+        font-family: 'Roboto Condensed', sans-serif;
+        margin: 0 auto;
+        padding: 1.84rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.84rem;
+
+    &--about {
+        justify-content: normal;
+    }
+
+    &__link {
+        text-transform: uppercase;
+        font-size: 1.84rem;
+        font-family: 'Roboto Condensed', sans-serif;
+        position: relative;
+
+        i {
+            -webkit-font-smoothing: antialiased;
+        }
+
+        &:not(.active) {
+
+            &::after {
+                width: 0%;
+                transition: width 0.4s ease-in-out;
+            }
+
+            &:hover {
+
+                &:after {
+                    width: 100%;
+                }
+            }
+        }
+        
+        &:after {
+                border-bottom: 3px solid #fe6993;
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: 700;
+            letter-spacing: 0.18rem;
+        }
+
+        &--dark a {
+            color: black;
+        }
+    }
+}
+
+.logo-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &--about {
+        align-items: baseline;
+    }
+
+    &__logo {
+        font-size:  5.52rem;
+        font-weight: 700;
+        margin: 0;
+        line-height: 6rem;
+        text-transform: uppercase;
+        
+        &--about {
+            padding: 1.84rem;
+            text-transform: none;
+            font-size: 3.68rem;
+            line-height: 4.05rem;
+        }
+    }
+
+
+}
+
+.main {
+
+    & > * {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.week {
+
+    padding-top: 1.84rem;
+    padding-bottom: 1.84rem;
+
+    &:nth-of-type(2n) {
+        background-color: white;
+    }
+    &:nth-of-type(2n+1) {
+        background-color: #f8f9f9;
+    }
+
+    &-header {
+        margin-bottom: 2.7rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    &-body {
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+
+code.highlighter-rouge {
+    padding: 0;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27,31,35,0.05);
+    border-radius: 3px;
+
+    &::before,
+    &::after {
+        letter-spacing: -0.31rem;
+        content: "\00a0";
+    }
+}
+
+.info {
+
+    padding-top: 3.6rem;
+    // padding-bottom: 3.6rem;
+
+    &-header {
+        font-size: 3.6rem;
+        line-height: 5.9rem;
+    }
+
+    &--about {
+        padding: 0;
+
+        & > * {
+            padding-left: 1.84rem;
+            padding-right: 1.84rem;
+        }
+    }
+
+    &-list {
+        padding-left: 4rem;
+
+        &--contacts {
+            padding-left: 6rem;
+        }
+    }
+}
+
+.topic {
+    margin-top: 3.6rem;
+
+    &--main {
+        font-size: 1.84rem;
+    }
+
+    font-weight: 700;
+    line-height: 4.4rem;
+    font-size: 2.7rem;
+}
+
+@media (min-width: 864px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 40%;
+
+        &--about {
+            position: relative;
+            top: auto;
+            left: auto;
+            height: auto;
+            width: auto;
+        }
+    }
+
+    .logo-area {
+        flex-grow: 1;
+        justify-content: center;
+
+        &--about {
+            
+        }
+
+        &__logo {
+
+            &--about {
+                padding: 7.36rem 14.72rem;
+                font-size: 5.5rem;
+                line-height: 6.07rem;
+            }
+        }
+    }
+
+    .main {
+        padding-left: 7.3rem;
+        padding-right: 7.3rem;
+        margin-left: 40%;
+
+        &--about {
+            margin-left: 0;
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .info {
+
+        &--about {
+            margin: 7.36rem 0;
+
+            & > * {
+                padding-left: 14.7rem;
+                padding-right: 14.7rem;
+            }
+        }
+
+        &-list {
+            padding-left: 18.7rem;
+        }
+    }
+}
+
+.bottom-text {
+    margin-bottom: 2rem;
+}
