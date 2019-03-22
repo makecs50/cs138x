@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Inconsolata';
-  src: url("{{site.baseurl}}/assets/fonts/inconsolata.ttf"); }
+  src: url("{{ site.baseurl }}/assets/fonts/inconsolata.ttf"); }
 @font-face {
   font-family: 'Inconsolata';
-  src: url("{{site.baseurl}}/assets/fonts/inconsolatabold.ttf");
+  src: url("{{ site.baseurl }}/assets/fonts/inconsolatabold.ttf");
   font-weight: bold; }
 @font-face {
   font-family: 'Inconsolata';
-  src: url("{{site.baseurl}}/assets/fonts/inconsolataitalic.ttf");
+  src: url("{{ site.baseurl }}/assets/fonts/inconsolataitalic.ttf");
   font-style: italic; }
 * {
   -webkit-font-smoothing: antialiased;
@@ -78,7 +78,7 @@ span.label {
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url("/assets/images/background.png");
+  background-image: url("{{ site.baseurl }}/assets/images/background.png");
   position: relative;
   color: white; }
   .header * {
