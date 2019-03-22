@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default-primary
+problems_active: active
 ---
 <section class="info">
   <h2 class='info-header'>Наборы проблем</h2>
@@ -11,24 +12,10 @@ layout: default-primary
   
 </section>
 <section>
-        <h3 class="topic">Апрель 2: Каскадность; Модели; Box;</h3>
+        <h3 class="topic">Набор проблем 0</h3>
         <ul>
-          <li>
-            <strong>Слайды</strong> <a href="https://docs.google.com/presentation/d/1W3B68eT5fqYJJncCzWiAA3IRfNEywbJJ1elCjGecFlM/edit#slide=id.p">Google slides</a> / <a href="26/lecture26.pdf">lecture26.pdf</a>
-            <ul>
-                <li>Middleware and Routes</li>
-                <li>Single-page web app</li>
-                <li>More MongoDB examples</li>
-                <li>Authentication</li>
-              </ul>
-          </li>
-          <li>
-            <strong>Код</strong>
-            <ul>
-                <li><a href="https://github.com/yayinternet/module-examples">Modules and Routes</a></li>
-                <li><a href="https://github.com/yayinternet/cross-stitch-examples">Cross-stitch examples</a></li>
-              </ul>
-          </li>
-          
+          <li><a href="#">НП0: Название</a></li>
+          <li>До <strong>(здесь дата)</strong> (здесь время)</li>
+          <li>Сдача: <a href="#">заполнить форму</a></li>
         </ul>
 </section>

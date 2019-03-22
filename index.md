@@ -24,11 +24,16 @@ layout: default-primary
 <section class="bottom-text">
         <h3 class="topic">Объявления</h3>
         <ul>
-          <li>[5/09/18] <a href="homework/5-sheets.html">Набор Проблем 0</a> опубликован.
+        <li>[07/04/19] Возможный старт лекций.
+            <ul>
+              <li><strong>ЗАМЕТКА:</strong> Мы можем изменить дату на 31/03, но ориентируйтесь на 07/04.</li>
+            </ul>
+          </li>
+          <!-- <li>[5/09/18] <a href="homework/5-sheets.html">Набор Проблем 0</a> опубликован.
             <ul>
               <li><strong>NOTE:</strong> We changed the due date to 5/31, but the late cutoff is still 6/1.</li>
             </ul>
           </li>
-          <li>[4/28] <a href="homework/3-flashcards.html">Homework 3</a> is released and is due <strong>Mon, May 8 at 11:59pm</strong> (<em>was: May 5, but extended to the 8th</em>)</li>
+          <li>[4/28] <a href="homework/3-flashcards.html">Homework 3</a> is released and is due <strong>Mon, May 8 at 11:59pm</strong> (<em>was: May 5, but extended to the 8th</em>)</li> -->
         </ul>
 </section>

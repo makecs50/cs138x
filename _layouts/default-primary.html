@@ -25,15 +25,15 @@
           <h1 class="logo-area__logo">CS138x</h1>
           <div class="logo-area__description">Каскадные Таблицы Стилей</div>
         </section>
-        <div class="header__bottom-nav">ЗАПИСЬ НА КУРС</div>
+        <div class="header__bottom-nav nav-list__link" style="padding: 0px; margin-bottom: 1.84rem;"><a class="nav" target="_blank" href="https://forms.gle/evMMRX95ab7P2Uxa8">ЗАПИСЬ НА КУРС</a></div>
       </header>
       <main class="main">
         <section class="secondary-nav">
           <ul class="nav-list">
-            <li class="nav-list__link nav-list__link--dark">
+            <li class="nav-list__link nav-list__link--dark {{page.lectures_active}}">
               <a href="{{site.baseurl}}/lectures" class="nav">Лекции</a>
             </li>
-            <li class="nav-list__link nav-list__link--dark">
+            <li class="nav-list__link nav-list__link--dark {{page.problems_active}}">
               <a href="{{site.baseurl}}/problems" class="nav">Наборы проблем</a>
             </li>
           </ul>

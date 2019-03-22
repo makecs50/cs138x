@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default-primary
+lectures_active: active
 ---
 <section class="info">
           <h2 class="info-header">Лекции</h2>
@@ -14,7 +15,34 @@ layout: default-primary
 </section>
 
 <section>
-  <h3 class="topic">Апрель 2: Каскадность; Модели; Box;</h3>
+  <h3 class="topic">Апрель 7: Каскадность; Модели; Box</h3>
+  <ul>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="#"
+        >Google слайды</a
+      >
+      / <a href="№">Слайды.pdf</a>
+      <ul>
+        <li>Здесь будет 1 тема лекции</li>
+        <li>Здесь будет 2 тема лекции</li>
+        <li>Здесь будет 3 тема лекции</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="#"
+            >Здесь будет код</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <!-- <h3 class="topic">Апрель 2: Каскадность; Модели; Box;</h3>
   <ul>
     <li>
       <strong>Слайды</strong>
@@ -45,5 +73,5 @@ layout: default-primary
         </li>
       </ul>
     </li>
-  </ul>
+  </ul> -->
 </section>
