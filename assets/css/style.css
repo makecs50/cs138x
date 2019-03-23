@@ -78,7 +78,7 @@ span.label {
 .header {
   display: flex;
   flex-direction: column;
-  background-image: url("../images/background.png");
+  background-image: url("http://web.stanford.edu/class/cs193x/images/background.png");
   position: relative;
   color: white; }
   .header * {
@@ -204,7 +204,8 @@ code.highlighter-rouge {
   line-height: 4.4rem;
   font-size: 2.7rem; }
   .topic--main {
-    font-size: 1.84rem; }
+    font-size: 1.84rem;
+    margin-top: 0; }
 
 @media (min-width: 864px) {
   .header {

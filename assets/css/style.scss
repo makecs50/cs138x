@@ -1,15 +1,15 @@
 @font-face {
     font-family: 'Inconsolata';
-    src: url('./fonts/inconsolata.ttf');
+    src: url('../fonts/inconsolata.ttf');
 }
 @font-face {
     font-family: 'Inconsolata';
-    src: url('./fonts/inconsolatabold.ttf');
+    src: url('../fonts/inconsolatabold.ttf');
     font-weight: bold;
 }
 @font-face {
     font-family: 'Inconsolata';
-    src: url('./fonts/inconsolataitalic.ttf');
+    src: url('../fonts/inconsolataitalic.ttf');
     font-style: italic;
 }
 
@@ -306,6 +306,7 @@ code.highlighter-rouge {
 
     &--main {
         font-size: 1.84rem;
+        margin-top: 0;
     }
 
     font-weight: 700;
