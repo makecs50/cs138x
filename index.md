@@ -18,7 +18,7 @@ layout: default-primary
 
   <ul>
   <li><span class="label">Требования</span> Достаточно компьютерной грамотности.<br></li>
-  <li><span class="label">Лекции</span> Воскресенье, 10:30-14:30 в <a href="https://leader-id.ru/company/243811/">Инноразуме</a> <br></li>
+  <li><span class="label">Лекции</span> Воскресенье, 10:30-14:30 в <a href="https://leader-id.ru/company/243811/">Инноразуме</a>.<br></li>
   <li><span class="label">Видеозаписи</span> Да, будут публиковаться после каждой проведенной лекции.<br></li>
   <li><span class="label">Финальный проект</span> Возможно будет. Детали TBA (To Be Announced).</li>
 </ul>
