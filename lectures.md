@@ -15,7 +15,7 @@ lectures_active: active
 </section>
 
 <section>
-  <h3 class="topic">Апрель 7: Каскадность; Модели; Box</h3>
+  <h3 class="topic">Апрель 14: Каскадность; Модели; Box</h3>
   <ul>
     <li>
       <strong>Слайды</strong>

@@ -18,7 +18,7 @@ layout: default-primary
 
   <ul>
   <li><span class="label">Требования</span> Достаточно компьютерной грамотности.<br></li>
-  <li><span class="label">Лекции</span> Воскресенье, 10:30-14:30 в <a href="http://gstou.ru">Главном корпусе ГГНТУ</a> <br></li>
+  <li><span class="label">Лекции</span> Воскресенье, 10:30-14:30 в <a href="https://leader-id.ru/company/243811/">Инноразуме</a> <br></li>
   <li><span class="label">Видеозаписи</span> Да, будут публиковаться после каждой проведенной лекции.<br></li>
   <li><span class="label">Финальный проект</span> Возможно будет. Детали TBA (To Be Announced).</li>
 </ul>
@@ -31,9 +31,9 @@ layout: default-primary
 <section class="bottom-text">
         <h3 class="topic">Объявления</h3>
         <ul>
-        <li>[07/04/19] Возможный старт лекций.
+        <li>[14/04/19] Старт лекций.
             <ul>
-              <li><strong>ЗАМЕТКА:</strong> Мы можем изменить дату на 31/03, но ориентируйтесь на 07/04.</li>
+              <li><strong>ЗАМЕТКА:</strong> Мы изменили дату.</li>
             </ul>
           </li>
           <!-- <li>[5/09/18] <a href="homework/5-sheets.html">Набор Проблем 0</a> опубликован.
