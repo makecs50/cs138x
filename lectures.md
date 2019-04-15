@@ -19,10 +19,14 @@ lectures_active: active
   <ul>
     <li>
       <strong>Видеозапись</strong>
-      <a target="_blank"
+      <ul>
+        <li>
+          <a target="_blank"
         href="https://youtu.be/H5iXZn34eIg"
-        >Youtube</a
-      >
+            >Открыть на youtube</a
+          >
+        </li>
+      </ul>
     </li>
     <li>
       <strong>Слайды</strong>
