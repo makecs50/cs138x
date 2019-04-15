@@ -15,27 +15,33 @@ lectures_active: active
 </section>
 
 <section>
-  <h3 class="topic">Апрель 14: Каскадность; Модели; Box</h3>
+  <h3 class="topic">Апрель 14: HTML</h3>
   <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <a target="_blank"
+        href="https://youtu.be/H5iXZn34eIg"
+        >Youtube</a
+      >
+    </li>
     <li>
       <strong>Слайды</strong>
       <a
-        href="#"
-        >Google слайды</a
+        href="{{ site.url }}/assets/material/week0/presentation0.zip"
+        >HTML-слайды</a
       >
-      / <a href="№">Слайды.pdf</a>
       <ul>
-        <li>Здесь будет 1 тема лекции</li>
-        <li>Здесь будет 2 тема лекции</li>
-        <li>Здесь будет 3 тема лекции</li>
+        <li>Основы HTML</li>
+        <li>Подключение стилей</li>
+        <li>Начало работы с селекторами</li>
       </ul>
     </li>
     <li>
       <strong>Код</strong>
       <ul>
         <li>
-          <a href="#"
-            >Здесь будет код</a
+          <a href="{{ site.url }}/assets/material/week0/code0.zip"
+            >Страница с двумя заголовками</a
           >
         </li>
       </ul>

@@ -31,6 +31,7 @@ layout: default-primary
 <section class="bottom-text">
         <h3 class="topic">Объявления</h3>
         <ul>
+        <li>[15/04/19] Опубликованы материалы 0 недели.</li>
         <li>[14/04/19] Старт лекций.
             <ul>
               <li><strong>ЗАМЕТКА:</strong> Мы изменили дату.</li>
