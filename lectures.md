@@ -15,7 +15,7 @@ lectures_active: active
 </section>
 
 <section>
-  <h3 class="topic">Апрель 21: Селекторы, Каскадность, Специфичность</h3>
+  <h3 class="topic">Апрель 21: Селекторы; Каскадность; Специфичность</h3>
   <ul>
     <li>
       <strong>Видеозапись</strong>
