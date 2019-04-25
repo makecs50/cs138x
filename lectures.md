@@ -15,6 +15,41 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Апрель 21: Селекторы, Каскадность, Специфичность</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/co1Y8xZgch4"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="{{ site.url }}/assets/material/week1/presentation1.zip"
+        >HTML-слайды</a
+      >
+      <ul>
+        <li>Виды селекторов</li>
+        <li>Объединение селекторов</li>
+        <li>Каскадность и коллизия стилей</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week1/code1.zip"
+            >Страница с разными шрифтами</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Апрель 14: HTML</h3>
   <ul>
     <li>
