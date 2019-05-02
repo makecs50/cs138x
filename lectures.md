@@ -15,6 +15,40 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Апрель 28: Box Model; Height/Width</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/7_NczYCR1t0"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="{{ site.url }}/assets/material/week2/presentation2.zip"
+        >HTML | PowerPoint (слайды)</a
+      >
+      <ul>
+        <li>Слои боксовой модели</li>
+        <li>Ширина и высота блочных элементов</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week2/code2.zip"
+            >Страница с отступами</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Апрель 21: Селекторы; Каскадность; Специфичность</h3>
   <ul>
     <li>
