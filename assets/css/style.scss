@@ -381,3 +381,174 @@ code.highlighter-rouge {
 .bottom-text {
     margin-bottom: 2rem;
 }
+
+
+
+
+/* -----------------------------------------------------
+   CSS Progress Bars
+-------------------------------------------------------- */
+.cssProgress {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .cssProgress .progress {
+    position: relative;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+    font-family: "Roboto", sans-serif;
+  }
+  .cssProgress .cssProgress-bar {
+    display: block;
+    float: left;
+    width: 0%;
+    height: 100%;
+    background: #3798d9;
+    box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
+    -webkit-transition: width 0.8s ease-in-out;
+            transition: width 0.8s ease-in-out;
+  }
+  .cssProgress .cssProgress-label {
+    position: absolute;
+    overflow: hidden;
+    left: 0px;
+    right: 0px;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.7em;
+    text-align: center;
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.3);
+  }
+  .cssProgress .cssProgress-info {
+    background-color: #9575cd !important;
+  }
+  .cssProgress .cssProgress-danger {
+    background-color: #ef5350 !important;
+  }
+  .cssProgress .cssProgress-success {
+    background-color: #66bb6a !important;
+  }
+  .cssProgress .cssProgress-warning {
+    background-color: #ffb74d !important;
+  }
+
+  .cssProgress .cssProgress-accumulating {
+    background-color: #303030 !important;
+  }
+
+  .cssProgress .cssProgress-right {
+    float: right !important;
+  }
+  .cssProgress .cssProgress-label-left {
+    margin-left: 10px;
+    text-align: left !important;
+  }
+  .cssProgress .cssProgress-label-right {
+    margin-right: 10px;
+    text-align: right !important;
+  }
+  .cssProgress .cssProgress-label2 {
+    display: block;
+    margin: 2px 0;
+    padding: 0 8px;
+    font-size: 0.8em;
+  }
+  .cssProgress .cssProgress-label2.cssProgress-label2-right {
+    text-align: right;
+  }
+  .cssProgress .cssProgress-label2.cssProgress-label2-center {
+    text-align: center;
+  }
+  .label-bottom-center {
+    text-align: center;
+    font-size: 0.8em;
+    margin-bottom: 12px;
+    line-height: 1.9rem;
+  }
+  .label-bottom-center > span {
+    font-weight: bold;
+  }
+  .cssProgress .cssProgress-stripes,
+  .cssProgress .cssProgress-active,
+  .cssProgress .cssProgress-active-right {
+    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
+    background-image: linear-gradient(-45deg, rgba(255, 255, 255, 0.125) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.125) 50%, rgba(255, 255, 255, 0.125) 75%, transparent 75%, transparent);
+    background-size: 35px 35px;
+  }
+  .cssProgress .cssProgress-active {
+    -webkit-animation: cssProgressActive 2s linear infinite;
+    -ms-animation: cssProgressActive 2s linear infinite;
+    animation: cssProgressActive 2s linear infinite;
+  }
+  .cssProgress .cssProgress-active-right {
+    -webkit-animation: cssProgressActiveRight 2s linear infinite;
+    -ms-animation: cssProgressActiveRight 2s linear infinite;
+    animation: cssProgressActiveRight 2s linear infinite;
+  }
+  @-webkit-keyframes cssProgressActive {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 35px 35px;
+    }
+  }
+  @-ms-keyframes cssProgressActive {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 35px 35px;
+    }
+  }
+  @keyframes cssProgressActive {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: 35px 35px;
+    }
+  }
+  @-webkit-keyframes cssProgressActiveRight {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -35px -35px;
+    }
+  }
+  @-ms-keyframes cssProgressActiveRight {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -35px -35px;
+    }
+  }
+  @keyframes cssProgressActiveRight {
+    0% {
+      background-position: 0 0;
+    }
+    100% {
+      background-position: -35px -35px;
+    }
+  }
+
+
+
+  /* -----------------------------------------------------
+   Progress Bar
+-------------------------------------------------------- */
+.progress {
+    background-color: #EEE;
+    border-radius: 9px;
+    box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  .progress .cssProgress-bar {
+    height: 18px;
+    border-radius: 9px;
+  }
+  .progress .cssProgress-label {
+    line-height: 18px;
+  }
