@@ -15,6 +15,29 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Май 5: Block/Inline; Display; Calc()</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/baiky34O-3U"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week3/code3.zip"
+            >Страница с навигацией</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Апрель 28: Box Model; Height/Width</h3>
   <ul>
     <li>
