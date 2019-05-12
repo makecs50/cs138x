@@ -25,7 +25,7 @@ layout: default-primary
         <div class="label-bottom-center"><span>Проектор ViewSonic</span> (модель будет выбрана после накопления всей суммы)</div>
       
       <div class="progress">
-        <div class="cssProgress-bar cssProgress-accumulating cssProgress-stripes cssProgress-active" data-accumulated="500" style="width: 0;"></div>
+        <div class="cssProgress-bar cssProgress-accumulating cssProgress-stripes cssProgress-active" data-accumulated="5000" style="width: 0;"></div>
       </div>
       <div class="cssProgress-label2 cssProgress-label2-center">0 ₽ / 117,000 ₽</div>
       <div class="label-bottom-center" style="font-size: 1.5rem">(количество донатов: 1)</div>
