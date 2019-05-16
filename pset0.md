@@ -83,6 +83,7 @@ path: problems
           <br/>
           <h3>Отправка проекта</h3>
           <p>Зарегистрируйтесь на <a target="_blank" href="https://github.com/">Github</a>.</p>
-          <p>Опубликуйте проект на <a target="_blank" href="https://gist.github.com">gist</a></p>
-          <p>Заполните <a target="_blank" href="https://forms.gle/XokRSPjjaaoLpQ6p9">форму</a>. После того как проверяющий человек оставит комментарий к вашей работе, вам должно придти уведомление на электронную почту, поэтому указывайте корректный email-адрес при регистрации на Github.</p>
+          <p>Опубликуйте проект на <a target="_blank" href="https://gist.github.com">gist</a>.</p>
+          <p>Заполните <a target="_blank" href="https://forms.gle/XokRSPjjaaoLpQ6p9">форму</a>.</p> 
+          <p>После того как проверяющий человек оставит комментарий к вашей работе, вам должно придти уведомление на электронную почту, поэтому указывайте корректный email-адрес при регистрации на Github.</p>
         </section>
