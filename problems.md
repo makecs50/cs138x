@@ -14,8 +14,7 @@ problems_active: active
 <section>
         <h3 class="topic">Набор проблем 0</h3>
         <ul>
-          <li><a href="#">НП0: Название</a></li>
-          <li>До <strong>(здесь дата)</strong> (здесь время)</li>
-          <li>Сдача: <a href="#">заполнить форму</a></li>
+          <li><a href="{{site.url}}/pset0">Задание НП0</a></li>
+          <li>Сдать через <a target="_blank" href="https://forms.gle/XokRSPjjaaoLpQ6p9">форму</a></li>
         </ul>
 </section>
