@@ -8,7 +8,7 @@ path: problems
 ---
 
 <section class="info info--about problem-set">
-          <a href="#" class="photo">
+          <a target="_blank" href="https://makecs138x.ru/assets/images/np0_example.png" class="photo">
             <!-- <h1>Amber Heard</h1> -->
             <img src="{{ site.url }}/assets/images/np0_example.png" />
             <!-- <div class="glow-wrap">
