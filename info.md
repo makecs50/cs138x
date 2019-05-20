@@ -4,6 +4,7 @@
 
 layout: default-secondary
 header: Информация о курсе
+path: index
 ---
 
  <section class="info info--about">

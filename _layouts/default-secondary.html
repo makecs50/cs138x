@@ -19,13 +19,7 @@
       <header class="header header--about">
         <nav class="main-nav">
           <ul class="nav-list nav-list--about">
-            <li class="nav-list__link"><a href="
-              {% if page.path %}
-              {{site.url}}/{{page.path}}
-              {% else %}
-              {{site.url}}/
-              {% endif %}
-              " class="nav">
+            <li class="nav-list__link"><a href="{{site.url}}/{{page.path}}" class="nav">
               <i class="fa fa-arrow-left" aria-hidden="true"></i>
               назад
             </a></li>

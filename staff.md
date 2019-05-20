@@ -4,6 +4,7 @@
 
 layout: default-secondary
 header: Сотрудники курса
+path: index
 ---
 
 <section class="info info--about">

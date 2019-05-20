@@ -4,6 +4,7 @@
 
 layout: default-secondary
 header: План обучения (Syllabus)
+path: index
 ---
 
  <section class="info info--about">
