@@ -15,6 +15,45 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Июнь 2: Практика (Part 2)</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/N6RafN_8Zeg"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week5/code5.zip"
+            >Вторая страница</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3 class="topic">Май 26: Практика (Part 1)</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись отсутствует</strong>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week4/code4.zip"
+            >Пакеты услуг</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Май 5: Block/Inline; Display; Calc()</h3>
   <ul>
     <li>
