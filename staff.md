@@ -12,7 +12,7 @@ path: index
                 Контакты
             </h1>
             <ul class="info-list info-list--contacts">
-              <li>Lom-Ali, Instructor (<a target="_blank" href="https://instagram.com/makecs50">@makecs50</a>)</li>
+              <li>Lom-Ali, Instructor (<a target="_blank" href="https://instagram.com/makecsx">@makecsx</a>)</li>
               <li>Абдул-Малик Абубакирова, Teaching Assistant</li>
               <li>Фариза Каимова, Teaching Fellow (<a target="_blank" href="https://www.instagram.com/intocode_girls/">@intocode_girls</a>, <a target="_blank" href="https://www.instagram.com/makecs50girls/">@makecs50girls</a>)</li>
               <li>Джанибек Бицалов, Teaching Assistant</li>
