@@ -15,6 +15,41 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Июнь 9: Float; Position</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/_on12aZnsLo"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="{{ site.url }}/assets/material/week6/presentation6.zip"
+        >HTML - слайды</a
+      >
+      <ul>
+        <li>Float, clearfix</li>
+        <li>Fixed & Static position</li>
+        <li>Viewport</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week6/code6.zip"
+            >Прикрепленная к viewport навигация</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Июнь 2: Практика (Part 2)</h3>
   <ul>
     <li>
