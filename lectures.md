@@ -8,13 +8,49 @@ lectures_active: active
 <section class="info">
           <h2 class="info-header">Лекции</h2>
           <p>
-            Данная страница будет содержать слайды и лекционный код (код,
+            Видеозаписи, слайды и лекционный код (код,
             написанный во время лекции).
           </p>
           <hr />
 </section>
 
 <section>
+  <h3 class="topic">Июнь 23: Background</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/7OUqgw-GNsw"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week8/code8.zip"
+            >Работа с изображениями</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3 class="topic">Июнь 16: Position Context; Stacking Context</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/KK-yHpFSCwc"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Июнь 9: Float; Position</h3>
   <ul>
     <li>
