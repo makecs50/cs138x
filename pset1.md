@@ -21,7 +21,7 @@ path: problems
           <hr />
           <h3>Дополнительные материалы</h3>
           <p>
-            Изображения из макета. <a href="{{ site.url }}/assets/material/week8/project_assets.zip">Скачать</a>.
+            Изображения из макета - <a href="{{ site.url }}/assets/material/week8/project_assets.zip">скачать</a>.
           </p>
           <h3>Пожелания</h3>
           <ol class="info-list info-list--contacts">
