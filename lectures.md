@@ -15,6 +15,40 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Июнь 30: Gradients; Units</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/ireTqV1-sCc"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="{{ site.url }}/assets/material/week9/presentation9.zip"
+        >HTML - слайды</a
+      >
+      <ul>
+        <li>Linear-gradient, Radial-gradient</li>
+        <li>Проценты</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week9/code9.zip"
+            >Прозрачная шторка</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Июнь 23: Background</h3>
   <ul>
     <li>
