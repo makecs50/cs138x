@@ -15,6 +15,39 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Июль 7: (min)max-width; em/rem; vh/vw</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/patVnAkdZ2s"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="{{ site.url }}/assets/material/week10/presentation10.zip"
+        >HTML - слайды</a
+      >
+      <ul>
+        <li>Свойства x значения</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week10/code10.zip"
+            >Модальное окно</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Июнь 30: Gradients; Units</h3>
   <ul>
     <li>
