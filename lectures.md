@@ -15,6 +15,19 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Июль 14: JavaScript; Работа с DOM'ом</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/5ECaNu2fmKY"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
   <h3 class="topic">Июль 7: (min)max-width; em/rem; vh/vw</h3>
   <ul>
     <li>
