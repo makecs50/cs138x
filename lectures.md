@@ -15,6 +15,68 @@ lectures_active: active
 </section>
 
 <section>
+  <h3 class="topic">Август 25: Flexbox; Свойства flex-item'ов</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/wbdDWmCDsdA"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week14/code14.zip"
+            >Свойства элементов контейнера</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3 class="topic">Август 18: Flexbox; Свойства flex-container'a</h3>
+  <ul>
+    <li>
+      <strong>Видеозапись</strong>
+      <ul>
+        <li>Открыть на <a target="_blank"
+        href="https://youtu.be/9WFGlWcYdEE"
+            >youtube</a
+          >
+        </li>
+      </ul>
+    </li>
+    <li>
+      <strong>Слайды</strong>
+      <a
+        href="{{ site.url }}/assets/material/week13/presentation13.zip"
+        >HTML - слайды</a
+      >
+      <ul>
+        <li>Свойства x значения</li>
+      </ul>
+    </li>
+    <li>
+      <strong>Код</strong>
+      <ul>
+        <li>
+          <a href="{{ site.url }}/assets/material/week13/code13.zip"
+            >Свойства контейнера</a
+          >
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <h3 class="topic">Июль 28: Адаптивность</h3>
+  <ul>
+    <li>
+      -
+    </li>
+  </ul>
   <h3 class="topic">Июль 14: JavaScript; Работа с DOM'ом</h3>
   <ul>
     <li>
